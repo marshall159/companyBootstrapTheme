@@ -107,3 +107,29 @@ body {
 /* Services
 ============================================ */
 
+.bg-4 {
+    padding: 5% 2% 4% 2%;
+}
+
+.bg-4 h2,
+.bg-4 .row h4 {
+    text-transform: uppercase;
+}
+
+.bg-4 span {
+    color: #f4511e;
+    font-size: 5.5rem;
+    margin-top: 5%;
+}
+
+.bg-4 .row h4 {
+    margin: 5% 0 7% 0;
+    line-height: 2.3rem;
+}
+
+
+.bg-4 p {
+    color: #818181;
+    line-height: 2.4rem;
+    margin-bottom: 10%;
+}
