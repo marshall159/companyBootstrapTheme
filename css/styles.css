@@ -79,4 +79,31 @@ body {
     line-height: 2.4rem;
 }
 
+/* Our values
+============================================== */
+
+.bg-3 {
+    padding: 7% 2% 4% 2%;
+    background-color: #f6f6f6;
+}
+
+.bg-3 span {
+    color: #f4511e;
+    font-size: 20rem;
+    margin-top: 5%;
+}
+
+.bg-3 h4 {
+    margin: 5% 0;
+    line-height: 2.3rem;
+}
+
+
+.bg-3 p {
+    color: #818181;
+    line-height: 2.4rem;
+}
+
+/* Services
+============================================ */
 
