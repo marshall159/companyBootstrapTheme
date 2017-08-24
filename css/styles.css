@@ -133,3 +133,62 @@ body {
     line-height: 2.4rem;
     margin-bottom: 10%;
 }
+
+/* Portfolio 
+=============================================== */
+
+.bg-5 {
+    padding: 5% 2% 4% 2%;
+    background-color: #f6f6f6;
+}
+
+.bg-5 h2 {
+    text-transform: uppercase;
+}
+
+.bg-5 h4 {
+    margin: 5% 0;
+}
+
+.bg-5 p {
+    margin-top: 3%;
+    color: #818181;
+    line-height: 2.4rem;
+}
+
+/* What Our Customers Say (Carousel)
+=============================================== */
+
+.carousel-heading {
+    margin-bottom: 0;
+}
+
+.item h4 {
+    margin: 70px 0;
+    font-style: italic;
+    line-height: 1.7;
+    font-size: 2rem;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+    background-image: none;
+    color: #f4511e;
+}
+
+.carousel-indicators li {
+    border-color: #f4511e;
+}
+
+.carousel-indicators li.active {
+    background-color: #f4511e;
+}
+
+.item span {
+    font-style: normal;
+}
+
+
+
+
+
