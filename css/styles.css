@@ -188,7 +188,55 @@ body {
     font-style: normal;
 }
 
+/* Pricing
+=============================================== */
 
+.bg-6 h2 {
+    text-transform: uppercase;
+    margin-top: 6%;
+}
+.bg-6 h4 {
+    margin-bottom: 4%;
+}
 
+.panel {
+    border-color: #f4511e;
+    line-height: 2;
+}
 
+.panel:hover {
+    box-shadow: 4px 4px 6px 1px lightgray;
+}
 
+.panel-heading {
+    background-color: #f4511e;
+    color: #f6f6f6;
+}
+
+.panel-title {
+    font-size: 3rem;
+    padding: 8%;
+}
+
+.panel-footer {
+    background-color: white;
+    padding: 1% 8% 8% 8%;
+}
+
+.panel-footer button {
+    border: 1px solid #f4511e;
+    background-color: #f4511e;
+    color: white;
+    padding: 4%;
+    margin: 1%;
+}
+
+.panel-footer button:hover {
+    background-color: white;
+    color: #f4511e;
+}
+
+.panel-footer h4 {
+    font-size: 1.2rem;
+    margin-bottom: 13%;
+}
