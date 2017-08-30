@@ -284,8 +284,10 @@
             </div><!-- row -->
         </div><!-- container-fluid -->
         
-        <div class="container-fluid">
-<!--            Google maps -->
+        <div class="container-fluid bg-8">
+            <div id="map">
+                
+            </div>
         </div><!-- container-fluid -->
         
         <footer class="container-fluid">
@@ -298,5 +300,23 @@
     
         <!-- Native JS for Bootstrap: jQuery Alternative in Vanilla JS -->
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap.native/2.0.12/bootstrap-native.min.js"></script>
+        <!-- Google maps -->
+        <script>
+          function initMap() {
+            var uluru = {lat: 51.507020, lng: -0.303214};
+            var map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 13,
+              center: uluru
+            });
+            var marker = new google.maps.Marker({
+              position: uluru,
+              map: map
+            });
+          }
+        </script>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxqPmvt0qkMzcPYi0ZoNkMVGR6kCKBXgg&callback=initMap">
+        </script>
+        
     </body>
 </html>

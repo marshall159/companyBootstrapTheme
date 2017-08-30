@@ -266,6 +266,15 @@ body {
 /* Map
 =============================================== */
 
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+.bg-8 {
+    background-color: #f6f6f6;
+    padding: 0;
+}
 
 
 
