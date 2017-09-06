@@ -3,6 +3,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    position: relative;
+    overflow: auto;
 }
 
 /* Header
@@ -276,5 +278,24 @@ body {
     padding: 0;
 }
 
+/* Footer
+=============================================== */
+
+footer {
+    padding: 5%;
+}
+
+footer .glyphicon {
+    color: #f4511e;
+    margin-bottom: 2%;
+    font-size: 2rem;
+}
+
+.w3 {
+    color: #337ab7;
+}
+
+/* Transitions/Animations
+=============================================== */
 
 
